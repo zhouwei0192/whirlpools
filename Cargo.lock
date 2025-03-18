@@ -1530,7 +1530,7 @@ version = "0.7.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "681030a937600a36906c185595136d26abfebb4aa9c65701cefcaf8578bb982b"
 dependencies = [
- "proc-macro-crate 1.2.1",
+ "proc-macro-crate 3.3.0",
  "proc-macro2",
  "quote",
  "syn 2.0.100",
@@ -2438,16 +2438,16 @@ dependencies = [
 
 [[package]]
 name = "spl-token"
-version = "4.0.1"
+version = "4.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "95ae123223633a389f95d1da9d49c2d0a50d499e7060b9624626a69e536ad2a4"
+checksum = "08459ba1b8f7c1020b4582c4edf0f5c7511a5e099a7a97570c9698d4f2337060"
 dependencies = [
  "arrayref",
  "bytemuck",
- "num-derive 0.4.2",
+ "num-derive 0.3.3",
  "num-traits",
- "num_enum 0.7.2",
- "solana-program 2.0.25",
+ "num_enum 0.6.1",
+ "solana-program 1.16.25",
  "thiserror",
 ]
 
